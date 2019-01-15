@@ -1,0 +1,20 @@
+{
+  "name": "cordova-inferno-cerebral-starter",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "livereload": "(cd cordova; yes | cp -rf config.livereload.xml config.xml ) && (cd cordova; cordova run ios --buildFlag=\"-UseModernBuildSystem=0\") & (cd inferno-app; npm run start)",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewvmail/cordova-inferno-cerebral-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewvmail/cordova-inferno-cerebral-starter/issues"
+  },
+  "homepage": "https://github.com/andrewvmail/cordova-inferno-cerebral-starter#readme"
+}

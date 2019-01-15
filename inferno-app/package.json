@@ -3,7 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "framework7": "^3.6.5",
+    "framework7-react": "^3.6.5",
     "inferno": "^7.0.5",
+    "inferno-clone-vnode": "^7.0.5",
+    "inferno-compat": "^7.0.5",
+    "inferno-create-class": "^7.0.5",
+    "inferno-create-element": "^7.0.5",
     "inferno-scripts": "7.0.4"
   },
   "scripts": {
